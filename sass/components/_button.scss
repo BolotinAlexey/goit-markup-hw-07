@@ -26,6 +26,12 @@
     display: inline-block;
     fill: currentColor;
   }
+
+  /* submit button */
+  &__form {
+    margin: 0 auto;
+    padding: 10px 52px;
+  }
 }
 
 .btn__text--to-right4 {
