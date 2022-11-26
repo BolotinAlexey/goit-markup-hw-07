@@ -16,6 +16,10 @@
 /* site-nav */
 .site-nav {
   display: flex;
+
+  &__item + &__item {
+    margin-left: 50px;
+  }
 }
 
 /* site-nav links */
@@ -30,10 +34,6 @@
   &:focus {
     color: $accent-color;
   }
-}
-
-.site-nav__item + .site-nav__item {
-  margin-left: 50px;
 }
 
 .site-nav__link--current {
