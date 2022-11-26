@@ -172,7 +172,7 @@ ul {
 }
 
 body {
-  font: 400 14px/1.14 ' Roboto ', sans-serif;
+  font: 400 14px/1.14 "Roboto", sans-serif;
   letter-spacing: 0.03em;
   color: #212121;
   background-color: #fff;
@@ -197,6 +197,9 @@ body {
   /* 42/36=1.166.. */
   line-height: 1.17;
   text-align: center;
+}
+.section--pb0 {
+  padding-bottom: 0;
 }
 
 .visually-hidden {
